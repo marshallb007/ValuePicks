@@ -5,48 +5,197 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Contact Us</title>
 </head>
 
 <body>
-  <section id="contact" class="content-section">
-    <div class="contact-section">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p>Feel free to ask us some questions about your draft or roster by feeling the contact form or visiting our social network sites like Facebook,Instagram,Twitter.</p>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <form class="form-horizontal">
-              <div class="form-group">
-                <label for="InputName">Name</label>
-                <input type="text" class="form-control" id="InputName" placeholder="Meatball Mulligan">
-              </div>
-              <div class="form-group">
-                <label for="InputEmail">Email</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="ValuePicks@gmail.com">
-              </div>
-              <div class="form-group ">
-                <label for="InputText">Your Message</label>
-                <textarea class="form-control" placeholder="Holla at Cha Boi"></textarea>
-              </div>
-              <button type="submit" class="btn btn-default">Send Message</button>
-            </form>
+<!--start of the header for the project-->
+<section>
+  <header id="header" style="margin-bottom: 100px;">
+    <nav class="navbar nav-pills navbar-expand-lg fixed-top" style="background: #C0C0C0; height: 70px;">
+      <a class="navbar-brand" href="#"></a>
+      <img src="./Images/lg.png" width="90" height="50" class="d-inline-block align-top" alt="">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <strong><a class="nav-link disabled" id="headHome" href="index.html"><span class="disabled"
+                                                                                       style="color:black; font-size: large;">Home</span></a></strong>
+          </li>
+          <li class="nav-item active">
+            <strong><a class="nav-link disabled" id="headReviews" href="index.html"><span class="disabled"
+                                                                                          style="color:black; font-size: large;">My Team</span></a></strong>
+          </li>
+          <li class="nav-item active">
+            <strong><a class="nav-link disabled" id="headContact" href="index.html"><span class="disabled"
+                                                                                          style="color:black; font-size: large;">Research</span></a></strong>
+          </li>
+          <li class="nav-item active">
+            <strong><a class="nav-link disabled" id="headAbout" href="index.html"><span class="disabled"
+                                                                                        style="color:black; font-size: large;">About</span></a></strong>
+          </li>
+          <li class="nav-item active"><strong><a class="nav-link disabled" id="headContact" href="contact.html"><span
+              class="disabled" style="color:black;font-size: large;">Contact</span></a></strong></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <!--<button class="btn btn-outline-secondary my-2 my-sm-0" data-toggle="submit"><strong><span class="disabled" style="color:black;font-size: large;">My Team</strong></button>-->
+          <!--<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" style="margin-left: 20px; margin-right: 40px;"><strong><span class="disabled" style="color:black;font-size: large;">New Team</strong></button>-->
 
-            <hr>
-            <div class="contact-us">
-              <h3>Follow Us</h3>
-              <ul class="list-inline banner-social-buttons">
-                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
-                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
-                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Instagram</span></i></a></li>
-              </ul>
+          <!--Modal Button Tests-->
+          <button type="button" class="btn btn-secondary" id="openSignIn" data-toggle="modal"
+                  data-target="#modalLoginForm"><strong><span
+              class="disabled" style="color:black;font-size: large;">My Team</span></strong></button>
+          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#signUpModal"
+                  style="margin-left: 20px; margin-right: 40px;"><strong><span class="disabled"
+                                                                               style="color: black; font-size: large;">New Team</span></strong>
+          </button>
+          <!--<a href="" class="btn btn-default btn-rounded mb-4 waves-effect waves-light" data-toggle="modal" data-target="#modalRegisterForm">Launch Modal Register Form</a>-->
+
+
+          <!--Modal from scratch-->
+
+
+          <!--Modal Login-->
+          <!--<form>-->
+            <!--<div class="modal fade" id="#modalLoginForm" tabindex="-1" role="dialog"  aria-labelledby="myModalLabel"-->
+                 <!--aria-hidden="true">-->
+              <!--<div class="modal-dialog" role="document">-->
+                <!--<div class="modal-content">-->
+                  <!--<div class="modal-header text-center">-->
+                    <!--<h4 class="modal-title w-100 font-weight-bold">Sign in</h4>-->
+                    <!--<button type="button" class="close" id="signInClose" data-dismiss="modal" aria-label="Close">-->
+                      <!--<span aria-hidden="true">&times;</span>-->
+                    <!--</button>-->
+                  <!--</div>-->
+                  <!--<div class="modal-body mx-3">-->
+                    <!--<div class="md-form mb-5">-->
+                      <!--<i class="fa fa-envelope prefix grey-text"></i>-->
+                      <!--<input type="email" id="defaultForm-email" class="form-control validate">-->
+                      <!--<label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>-->
+                    <!--</div>-->
+
+                    <!--<div class="md-form mb-4">-->
+                      <!--<i class="fa fa-lock prefix grey-text"></i>-->
+                      <!--<input type="password" id="defaultForm-pass" class="form-control validate">-->
+                      <!--<label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>-->
+                    <!--</div>-->
+
+                  <!--</div>-->
+                  <!--<div class="modal-footer d-flex justify-content-center">-->
+                    <!--<button class="btn btn-default" id="logIn">Login</button>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+
+            <!--&lt;!&ndash;<div class="text-center">&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Launch Modal Login Form</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;<div class="text-center">&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Launch Modal Login Form</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+          <!--</form>-->
+
+          <!--end modal login button tests-->
+
+          <!--Start Modal Signup button Test-->
+          <form>
+            <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                      <i class="fa fa-user prefix grey-text"></i>
+                      <input type="text" id="orangeForm-name" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+                    </div>
+                    <div class="md-form mb-5">
+                      <i class="fa fa-envelope prefix grey-text"></i>
+                      <input type="email" id="orangeForm-email" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+                    </div>
+
+                    <div class="md-form mb-4">
+                      <i class="fa fa-lock prefix grey-text"></i>
+                      <input type="password" id="orangeForm-pass" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+                    </div>
+
+                  </div>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-deep-orange">Sign up</button>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!--<div class="text-center">-->
+            <!--<a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch-->
+            <!--Modal Register Form</a>-->
+            <!--</div>-->
+
+          </form>
+          <!--End Modal Sign up Test-->
+
+        </form>
+      </div>
+    </nav>
+    </div>
+  </header>
+</section>
+<!--end of the header for this project-->
+<section id="contact" class="content-section">
+  <div class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Feel free to ask us some questions about your draft or roster by feeling the contact form or visiting our
+        social network sites like Facebook,Instagram,Twitter.</p>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="exampleInputName2">Name</label>
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail2">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+            </div>
+            <div class="form-group ">
+              <label for="exampleInputText">Your Message</label>
+              <textarea class="form-control" placeholder="Holla at Cha Boi"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Send Message</button>
+          </form>
+
+          <hr>
+          <div class="contact us">
+            <h3>Follow Us</h3>
+            <ul class="list-inline banner-social-buttons">
+              <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a>
+              </li>
+              <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a>
+              </li>
+              <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Instagram</span></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 
 </body>

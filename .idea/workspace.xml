@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac360eca-46cd-485f-862a-f4b0b1af2e89" name="Default" comment="" />
+    <list default="true" id="ac360eca-46cd-485f-862a-f4b0b1af2e89" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,37 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="339">
+              <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <state relative-caret-position="314">
+              <caret line="144" column="62" selection-start-line="144" selection-start-column="62" selection-end-line="144" selection-end-column="62" />
+=======
+            <state relative-caret-position="545">
+              <caret line="182" column="86" selection-start-line="182" selection-start-column="86" selection-end-line="182" selection-end-column="86" />
+>>>>>>> ryan
+              <folding>
+                <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+>>>>>>> ryan
+                <element signature="n#style#0;n#button#1;n#form#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+>>>>>>> ryan
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javaScript/logic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -28,6 +60,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/assets/javaScript/logic.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -49,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -56,12 +90,16 @@
               <item name="ValuePicks" type="b2602c69:ProjectViewProjectNode" />
               <item name="ValuePicks" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ValuePicks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ValuePicks" type="462c0819:PsiDirectoryNode" />
+              <item name="uncommitted" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -137,11 +175,21 @@
       <option name="presentableId" value="Default" />
       <updated>1522365841462</updated>
       <workItem from="1522365847762" duration="855000" />
+      <workItem from="1522433925606" duration="4016000" />
+      <workItem from="1522508491732" duration="707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="855000" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="5578000" />
+=======
+    <option name="totallyTimeSpent" value="2964000" />
+>>>>>>> ryan
+=======
+    <option name="totallyTimeSpent" value="3284000" />
+>>>>>>> ryan
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="775" extended-state="0" />
@@ -156,25 +204,61 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+>>>>>>> ryan
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" order="2" />
+=======
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Learn" />
+>>>>>>> ryan
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,8 +270,90 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="88" lean-forward="true" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
+          <folding>
+<<<<<<< HEAD
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> ryan
+            <element signature="n#style#0;n#button#1;n#form#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> ryan
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+<<<<<<< HEAD
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> ryan
+            <element signature="n#style#0;n#button#1;n#form#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> ryan
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+          <folding>
+<<<<<<< HEAD
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ryan
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javaScript/logic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="182" column="86" selection-start-line="182" selection-start-column="86" selection-end-line="182" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+<<<<<<< HEAD
+>>>>>>> ryan
+            <element signature="n#style#0;n#button#1;n#form#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+>>>>>>> ryan
+          </folding>
         </state>
       </provider>
     </entry>
